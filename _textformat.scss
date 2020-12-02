@@ -1,0 +1,25 @@
+.title {
+    font-size: 5rem;
+    color: $textcolor;
+    font-family: "Permanent Marker";
+}
+
+.subtitle {
+    color: $textcolor;
+    font-family: $titlesfont;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.postheader {
+    font-size: 3rem;
+    font-family: $titlesfont;
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+.posttext {
+    font-family: $textfont;
+    letter-spacing: 0.05rem;
+    line-height: 2rem;
+}
