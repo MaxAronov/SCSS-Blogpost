@@ -1,0 +1,123 @@
+.img1 {
+  height: 30vh;
+  width: 150vw;
+  background-image: url(img/img1.jpg);
+  background-size: cover;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.img2 {
+  height: 30vh;
+  width: 150vw;
+  background-image: url(img/img2.jpg);
+  background-size: cover;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.img3 {
+  height: 30vh;
+  width: 150vw;
+  background-image: url(img/img3.jpg);
+  background-size: cover;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.title {
+  font-size: 5rem;
+  color: #FFFFFF;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.subtitle {
+  color: #FFFFFF;
+  font-family: "Permanent Marker", cursive;
+  padding-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.postheader {
+  font-size: 3.5rem;
+  color: #FFFFFF;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 100;
+  padding-left: 4rem;
+  padding-top: 3rem;
+}
+
+.postsubheader {
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 100;
+  padding-left: 4rem;
+  padding-top: 1rem;
+}
+
+.posttext {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  font-family: "Sintony";
+  font-weight: 100;
+  padding-left: 4rem;
+  padding-top: 1rem;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: #23272A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.postpanel {
+  background-color: #2C2F33;
+  width: 60vw;
+  height: 47vh;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 5%;
+}
+
+.postdivider {
+  background-color: #2C2F33;
+  width: 95vw;
+  height: 1vh;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.postcontent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+}
+
+.readmore {
+  width: auto;
+  height: 2vh;
+}
+/*# sourceMappingURL=style.css.map */

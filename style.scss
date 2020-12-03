@@ -3,8 +3,41 @@
 @import "textformat";
 html,
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: $primarycolor;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.postpanel {
+    background-color: $secondarycolor;
+    width: 60vw;
+    height: 47vh;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 5%;
+}
+
+.postdivider {
+    background-color: $secondarycolor;
+    width: 95vw;
+    height: 1vh;
+    margin: auto;
+    margin-top: 2%;
+    ;
+}
+
+.postcontent {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.readmore {
+    width: auto;
+    height: 2vh;
 }
